@@ -1,0 +1,28 @@
+
+h1,h2,h3,h4,h5,h6 {
+     font-family: fantasy, serif;
+     font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
+h4 + p {
+	float: left;
+	font-size: 2.5em; 
+	font-weight: bold; 
+	margin: 5px 5px 5px 5px;
+} 
+body {
+	background-color: #C6B08F;
+	font-family: fantasy, serif;
+}
+
+img {
+	 box-shadow: 0px 0px 112px -18px rgba(43,42,43,1);
+	 opacity: 0.75;
+	 border-style: groove;
+	 border-width: 5px;
+	 border-color: gray;
+	 margin:10px;
+}
