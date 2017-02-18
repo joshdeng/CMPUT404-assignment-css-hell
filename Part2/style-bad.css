@@ -1,0 +1,118 @@
+
+#profile{
+	align-items: center;
+    background: #ed0300;
+}
+#about-me{
+
+    background: #1bc139;
+}
+#offer{
+    background: :#1b2bc1;
+}
+#pro-hist{
+    background: :#1b2bc1;
+}
+
+.photo {
+	width: 80%;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 30px;
+    filter: blur(30px); 
+    transform: rotate(120deg);
+}
+
+.left-half {
+  position: absolute;
+  left: 0px;
+  width: 25%;
+  transform: rotate(7deg);
+}
+
+.right-half {
+  position: absolute;
+  right: 0px;
+  width: 75%;
+  transform: rotate(-7deg);
+}
+body {
+    font-family: 'Sans-serif', Arial;
+    margin:0px;
+    color:purple;
+    background: #000000;
+}
+.section {
+	height: 600px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+
+.title-section {
+	height: 430px;
+    max-height: 430px;
+    overflow: hidden;
+    filter: blur(3px); 
+    transform: rotate(170deg);
+}
+.title-section img{
+	height: 430px;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.title-field{
+	left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+
+
+}
+.title-field-text{
+	position: absolute;
+    left: 0;
+    right: 0;
+    padding: 20px 10px 35px 30px;
+    top: 30%;
+    z-index: 3;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 50px;
+
+    line-height: 60px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+/* https://www.w3schools.com/w3css/w3css_cards.asp */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 30px; 
+    margin: 15px;
+    background: blue;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

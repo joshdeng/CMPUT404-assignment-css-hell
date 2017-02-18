@@ -8,6 +8,7 @@ p::first-letter {
     font-size: 150%;
 }
 h4 + p {
+	/* http://www.cssnewbie.com/book-style-chapter-intros/#.WKgJhRIrIy4 */
 	float: left;
 	font-size: 2.5em; 
 	font-weight: bold; 
